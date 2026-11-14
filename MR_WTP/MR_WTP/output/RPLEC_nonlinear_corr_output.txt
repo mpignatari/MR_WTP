@@ -1,0 +1,464 @@
+Model run by mp1149 using Apollo 0.3.9 on R 4.6.1 for Windows.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : RPLEC_nonlinear_corr
+Model description                           : Non-linear RPL-EC, utility space, correlated (Cholesky), gender weights
+Model run at                                : 2026-11-12 22:22:39.12545
+Estimation method                           : bgw
+Estimation diagnosis                        : Iteration limit (unfavorable)
+Optimisation diagnosis                      : Unknown (no Hessian calculated)
+Number of individuals                       : 371
+Number of rows in database                  : 1484
+Number of modelled outcomes                 : 1484
+
+Number of cores used                        :  7 
+Number of inter-individual draws            : 1000 (halton)
+
+LL(start)                                   : -1461.74
+LL at equal shares, LL(0)                   : -1630.34
+LL at observed shares, LL(C)                : -1623.03
+LL(final)                                   : -1268.05
+Rho-squared vs equal shares                  :  0.2222 
+Adj.Rho-squared vs equal shares              :  0.1885 
+Rho-squared vs observed shares               :  0.2187 
+Adj.Rho-squared vs observed shares           :  0.1861 
+AIC                                         :  2646.1 
+BIC                                         :  2937.74 
+
+Estimated parameters                        : 55
+Time taken (hh:mm:ss)                       :  01:07:28.34 
+     pre-estimation                         :  00:00:44.41 
+     estimation                             :  01:06:39.6 
+     post-estimation                        :  00:00:4.33 
+Iterations                                  :  200 (Iteration limit (unfavorable)) 
+
+Unconstrained optimisation.
+
+Estimates:
+           Estimate   BHHH.s.e. BHHH.t.rat.(0)
+mu_b0      4442.879          NA             NA
+mu_mr1   -1.264e+04          NA             NA
+mu_mr3     -343.651          NA             NA
+mu_jb1    -5781.760          NA             NA
+mu_jb3     3709.125          NA             NA
+mu_c2      9912.146          NA             NA
+mu_c3      9935.906          NA             NA
+mu_c4      8890.142          NA             NA
+mu_cost     -44.048          NA             NA
+l11        7609.059          NA             NA
+l21       -7985.611          NA             NA
+l22        5315.485          NA             NA
+l31       1.129e+04          NA             NA
+l32        5422.023          NA             NA
+l33       1.265e+04          NA             NA
+l41       -8644.394          NA             NA
+l42        6931.673          NA             NA
+l43        4573.138          NA             NA
+l44         685.262          NA             NA
+l51         941.715          NA             NA
+l52        4412.496          NA             NA
+l53        1684.940          NA             NA
+l54       -9674.427          NA             NA
+l55        7613.719          NA             NA
+l61        4814.657          NA             NA
+l62         111.733          NA             NA
+l63       -1565.533          NA             NA
+l64       1.248e+04          NA             NA
+l65        5644.093          NA             NA
+l66        3778.735          NA             NA
+l71        3589.025          NA             NA
+l72        2885.994          NA             NA
+l73        -161.961          NA             NA
+l74        9842.018          NA             NA
+l75        5287.083          NA             NA
+l76       1.008e+04          NA             NA
+l77        8232.438          NA             NA
+l81       -2169.400          NA             NA
+l82        1983.701          NA             NA
+l83        -773.840          NA             NA
+l84        7927.812          NA             NA
+l85       1.343e+04          NA             NA
+l86       1.921e+04          NA             NA
+l87       -7274.633          NA             NA
+l88       -1145.450          NA             NA
+l91         -36.031          NA             NA
+l92         -40.050          NA             NA
+l93           8.526          NA             NA
+l94          12.371          NA             NA
+l95           3.575          NA             NA
+l96           3.908          NA             NA
+l97           7.725          NA             NA
+l98         -23.934          NA             NA
+l99          61.717          NA             NA
+sig_ec    1.021e+04          NA             NA
+
+Your model did not converge properly, and some of your parameter values are
+  tending to +/- infinity. This could point to an identification issue. If
+  you want to retain these parameters in the model, you may wish to set
+  their value(s) in apollo_beta to the estimated value(s), include the
+  parameter name(s) in apollo_fixed, and re-estimate the model.
+
+
+Overview of choices for MNL model component :
+                                    alt1    alt2    alt3
+Times available                  1484.00 1484.00 1484.00
+Times chosen                      514.00  537.00  433.00
+Percentage chosen overall          34.64   36.19   29.18
+Percentage chosen when available   34.64   36.19   29.18
+
+
+
+BHHH covariance matrix:
+          mu_b0  mu_mr1  mu_mr3  mu_jb1  mu_jb3   mu_c2   mu_c3   mu_c4 mu_cost
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l11     l21     l22     l31     l32     l33     l41     l42     l43
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l44     l51     l52     l53     l54     l55     l61     l62     l63
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l64     l65     l66     l71     l72     l73     l74     l75     l76
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l77     l81     l82     l83     l84     l85     l86     l87     l88
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l91     l92     l93     l94     l95     l96     l97     l98     l99
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+         sig_ec
+mu_b0        NA
+mu_mr1       NA
+mu_mr3       NA
+mu_jb1       NA
+mu_jb3       NA
+mu_c2        NA
+mu_c3        NA
+mu_c4        NA
+mu_cost      NA
+l11          NA
+l21          NA
+l22          NA
+l31          NA
+l32          NA
+l33          NA
+l41          NA
+l42          NA
+l43          NA
+ [ reached 'max' / getOption("max.print") -- omitted 37 rows ]
+
+BHHH correlation matrix:
+          mu_b0  mu_mr1  mu_mr3  mu_jb1  mu_jb3   mu_c2   mu_c3   mu_c4 mu_cost
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l11     l21     l22     l31     l32     l33     l41     l42     l43
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l44     l51     l52     l53     l54     l55     l61     l62     l63
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l64     l65     l66     l71     l72     l73     l74     l75     l76
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l77     l81     l82     l83     l84     l85     l86     l87     l88
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+            l91     l92     l93     l94     l95     l96     l97     l98     l99
+mu_b0        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_mr3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb1       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_jb3       NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c2        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c3        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_c4        NA      NA      NA      NA      NA      NA      NA      NA      NA
+mu_cost      NA      NA      NA      NA      NA      NA      NA      NA      NA
+l11          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l21          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l22          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l31          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l32          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l33          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l41          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l42          NA      NA      NA      NA      NA      NA      NA      NA      NA
+l43          NA      NA      NA      NA      NA      NA      NA      NA      NA
+         sig_ec
+mu_b0        NA
+mu_mr1       NA
+mu_mr3       NA
+mu_jb1       NA
+mu_jb3       NA
+mu_c2        NA
+mu_c3        NA
+mu_c4        NA
+mu_cost      NA
+l11          NA
+l21          NA
+l22          NA
+l31          NA
+l32          NA
+l33          NA
+l41          NA
+l42          NA
+l43          NA
+ [ reached 'max' / getOption("max.print") -- omitted 37 rows ]
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                                                                    
+modelName              "RPLEC_nonlinear_corr"                                                   
+modelDescr             "Non-linear RPL-EC, utility space, correlated (Cholesky), gender weights"
+indivID                "pid"                                                                    
+mixing                 "TRUE"                                                                   
+weights                "wtgend"                                                                 
+nCores                 "7"                                                                      
+analyticGrad           "FALSE"                                                                  
+noModification         "TRUE"                                                                   
+outputDirectory        "output/"                                                                
+debug                  "FALSE"                                                                  
+workInLogs             "FALSE"                                                                  
+seed                   "13"                                                                     
+HB                     "FALSE"                                                                  
+noValidation           "FALSE"                                                                  
+noDiagnostics          "FALSE"                                                                  
+calculateLLC           "TRUE"                                                                   
+analyticHessian        "FALSE"                                                                  
+dropLoopExpansion      "FALSE"                                                                  
+dropRedefCheck         "FALSE"                                                                  
+memorySaver            "FALSE"                                                                  
+panelData              "TRUE"                                                                   
+analyticGrad_manualSet "TRUE"                                                                   
+overridePanel          "FALSE"                                                                  
+preventOverridePanel   "FALSE"                                                                  
+
+Hessian routines attempted
+--------------------------
+none
+
+
+apollo_randCoeff
+------------------
+function(apollo_beta, apollo_inputs) {
+  rc <- list()
+  z9 <- u_c1 + u_c2 - 1                               # triangular(-1,1) for cost
+  rc[["b0"]]   <- mu_b0  + l11 * z1
+  rc[["bmr1"]] <- mu_mr1 + l21 * z1 + l22 * z2
+  rc[["bmr3"]] <- mu_mr3 + l31 * z1 + l32 * z2 + l33 * z3
+  rc[["bjb1"]] <- mu_jb1 + l41 * z1 + l42 * z2 + l43 * z3 + l44 * z4
+  rc[["bjb3"]] <- mu_jb3 + l51 * z1 + l52 * z2 + l53 * z3 + l54 * z4 + l55 * z5
+  rc[["bc2"]]  <- mu_c2  + l61 * z1 + l62 * z2 + l63 * z3 + l64 * z4 + l65 * z5 + l66 * z6
+  rc[["bc3"]]  <- mu_c3  + l71 * z1 + l72 * z2 + l73 * z3 + l74 * z4 + l75 * z5 + l76 * z6 + l77 * z7
+  rc[["bc4"]]  <- mu_c4  + l81 * z1 + l82 * z2 + l83 * z3 + l84 * z4 + l85 * z5 + l86 * z6 + l87 * z7 +
+                  l88 * z8
+  rc[["bcost"]] <- mu_cost + l91 * z1 + l92 * z2 + l93 * z3 + l94 * z4 + l95 * z5 + l96 * z6 +
+                   l97 * z7 + l98 * z8 + l99 * z9
+  rc[["ec"]]   <- sig_ec * d_ec
+  return(rc)
+}
+<bytecode: 0x000002723c546708>
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality = "estimate") {
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+  P <- list(); V <- list()
+  V[["alt1"]] <- b0 + bmr1 * mr1_1 + bmr3 * mr3_1 + bjb1 * jb1_1 + bjb3 * jb3_1 +
+                 bc2 * c2_1 + bc3 * c3_1 + bc4 * c4_1 + bcost * cost_1 + ec
+  V[["alt2"]] <- b0 + bmr1 * mr1_2 + bmr3 * mr3_2 + bjb1 * jb1_2 + bjb3 * jb3_2 +
+                 bc2 * c2_2 + bc3 * c3_2 + bc4 * c4_2 + bcost * cost_2 + ec
+  V[["alt3"]] <- bmr1 * mr1_3 + bmr3 * mr3_3 + bjb1 * jb1_3 + bjb3 * jb3_3 +
+                 bc2 * c2_3 + bc3 * c3_3 + bc4 * c4_3 + bcost * cost_3
+  mnl_settings <- list(alternatives = c(alt1 = 1, alt2 = 2, alt3 = 3),
+                       avail = list(alt1 = 1, alt2 = 1, alt3 = 1),
+                       choiceVar = choice, utilities = V)
+  P[["model"]] <- apollo_mnl(mnl_settings, functionality)
+  P <- apollo_panelProd(P, apollo_inputs, functionality)
+  P <- apollo_avgInterDraws(P, apollo_inputs, functionality)
+  P <- apollo_weighting(P, apollo_inputs, functionality)
+  P <- apollo_prepareProb(P, apollo_inputs, functionality)
+  return(P)
+}
+<bytecode: 0x0000027242aef848>
